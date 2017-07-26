@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FCA99001F28B52900D08E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA98FF1F28B52900D08E10 /* main.m */; };
+		2FCA99031F28B52900D08E10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA99021F28B52900D08E10 /* AppDelegate.m */; };
+		2FCA99061F28B52900D08E10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCA99051F28B52900D08E10 /* ViewController.m */; };
+		2FCA99091F28B52900D08E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCA99071F28B52900D08E10 /* Main.storyboard */; };
+		2FCA990B1F28B52900D08E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCA990A1F28B52900D08E10 /* Assets.xcassets */; };
+		2FCA990E1F28B52900D08E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCA990C1F28B52900D08E10 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FCA98FB1F28B52900D08E10 /* ModifyPictureBakcgroundColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModifyPictureBakcgroundColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCA98FF1F28B52900D08E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FCA99011F28B52900D08E10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FCA99021F28B52900D08E10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FCA99041F28B52900D08E10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FCA99051F28B52900D08E10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FCA99081F28B52900D08E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FCA990A1F28B52900D08E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FCA990D1F28B52900D08E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FCA990F1F28B52900D08E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FCA98F81F28B52900D08E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FCA98F21F28B52900D08E10 = {
+			isa = PBXGroup;
+			children = (
+				2FCA98FD1F28B52900D08E10 /* ModifyPictureBakcgroundColor */,
+				2FCA98FC1F28B52900D08E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FCA98FC1F28B52900D08E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FCA98FB1F28B52900D08E10 /* ModifyPictureBakcgroundColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FCA98FD1F28B52900D08E10 /* ModifyPictureBakcgroundColor */ = {
+			isa = PBXGroup;
+			children = (
+				2FCA99011F28B52900D08E10 /* AppDelegate.h */,
+				2FCA99021F28B52900D08E10 /* AppDelegate.m */,
+				2FCA99041F28B52900D08E10 /* ViewController.h */,
+				2FCA99051F28B52900D08E10 /* ViewController.m */,
+				2FCA99071F28B52900D08E10 /* Main.storyboard */,
+				2FCA990A1F28B52900D08E10 /* Assets.xcassets */,
+				2FCA990C1F28B52900D08E10 /* LaunchScreen.storyboard */,
+				2FCA990F1F28B52900D08E10 /* Info.plist */,
+				2FCA98FE1F28B52900D08E10 /* Supporting Files */,
+			);
+			path = ModifyPictureBakcgroundColor;
+			sourceTree = "<group>";
+		};
+		2FCA98FE1F28B52900D08E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FCA98FF1F28B52900D08E10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FCA98FA1F28B52900D08E10 /* ModifyPictureBakcgroundColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FCA99121F28B52900D08E10 /* Build configuration list for PBXNativeTarget "ModifyPictureBakcgroundColor" */;
+			buildPhases = (
+				2FCA98F71F28B52900D08E10 /* Sources */,
+				2FCA98F81F28B52900D08E10 /* Frameworks */,
+				2FCA98F91F28B52900D08E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModifyPictureBakcgroundColor;
+			productName = ModifyPictureBakcgroundColor;
+			productReference = 2FCA98FB1F28B52900D08E10 /* ModifyPictureBakcgroundColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FCA98F31F28B52900D08E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yangcq;
+				TargetAttributes = {
+					2FCA98FA1F28B52900D08E10 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3K9N656GRA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FCA98F61F28B52900D08E10 /* Build configuration list for PBXProject "ModifyPictureBakcgroundColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FCA98F21F28B52900D08E10;
+			productRefGroup = 2FCA98FC1F28B52900D08E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FCA98FA1F28B52900D08E10 /* ModifyPictureBakcgroundColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FCA98F91F28B52900D08E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCA990E1F28B52900D08E10 /* LaunchScreen.storyboard in Resources */,
+				2FCA990B1F28B52900D08E10 /* Assets.xcassets in Resources */,
+				2FCA99091F28B52900D08E10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FCA98F71F28B52900D08E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCA99061F28B52900D08E10 /* ViewController.m in Sources */,
+				2FCA99031F28B52900D08E10 /* AppDelegate.m in Sources */,
+				2FCA99001F28B52900D08E10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FCA99071F28B52900D08E10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FCA99081F28B52900D08E10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FCA990C1F28B52900D08E10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FCA990D1F28B52900D08E10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FCA99101F28B52900D08E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FCA99111F28B52900D08E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FCA99131F28B52900D08E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3K9N656GRA;
+				INFOPLIST_FILE = ModifyPictureBakcgroundColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaaa2017.ModifyPictureBakcgroundColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FCA99141F28B52900D08E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3K9N656GRA;
+				INFOPLIST_FILE = ModifyPictureBakcgroundColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aaaaa2017.ModifyPictureBakcgroundColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FCA98F61F28B52900D08E10 /* Build configuration list for PBXProject "ModifyPictureBakcgroundColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCA99101F28B52900D08E10 /* Debug */,
+				2FCA99111F28B52900D08E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FCA99121F28B52900D08E10 /* Build configuration list for PBXNativeTarget "ModifyPictureBakcgroundColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FCA99131F28B52900D08E10 /* Debug */,
+				2FCA99141F28B52900D08E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FCA98F31F28B52900D08E10 /* Project object */;
+}
