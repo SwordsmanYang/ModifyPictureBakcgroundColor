@@ -13,6 +13,7 @@
 		2FCA99091F28B52900D08E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCA99071F28B52900D08E10 /* Main.storyboard */; };
 		2FCA990B1F28B52900D08E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCA990A1F28B52900D08E10 /* Assets.xcassets */; };
 		2FCA990E1F28B52900D08E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCA990C1F28B52900D08E10 /* LaunchScreen.storyboard */; };
+		2FCA99161F28B5A100D08E10 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FCA99151F28B5A100D08E10 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2FCA990A1F28B52900D08E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FCA990D1F28B52900D08E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FCA990F1F28B52900D08E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCA99151F28B5A100D08E10 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		2FCA98FD1F28B52900D08E10 /* ModifyPictureBakcgroundColor */ = {
 			isa = PBXGroup;
 			children = (
+				2FCA99151F28B5A100D08E10 /* 1.jpg */,
 				2FCA99011F28B52900D08E10 /* AppDelegate.h */,
 				2FCA99021F28B52900D08E10 /* AppDelegate.m */,
 				2FCA99041F28B52900D08E10 /* ViewController.h */,
@@ -138,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCA99161F28B5A100D08E10 /* 1.jpg in Resources */,
 				2FCA990E1F28B52900D08E10 /* LaunchScreen.storyboard in Resources */,
 				2FCA990B1F28B52900D08E10 /* Assets.xcassets in Resources */,
 				2FCA99091F28B52900D08E10 /* Main.storyboard in Resources */,
